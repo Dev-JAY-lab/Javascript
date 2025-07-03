@@ -1,6 +1,8 @@
 
 let marks = 96;
 
+// function getMyGrade is here and marks passed into it
+
 function getMyGrade(marks) {
 
     if (marks<0 || marks >100) {
@@ -30,4 +32,4 @@ function getMyGrade(marks) {
     
 }
 
- getMyGrade(marks);
+ getMyGrade(marks); //function is called 
