@@ -9,4 +9,4 @@ function findhighestValue(arr) {
     }
     return max;
 }
-console.log(findhighestValue(arr)); 
+console.log(findhighestValue(i)); 
