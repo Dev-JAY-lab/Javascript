@@ -46,8 +46,12 @@ let a = sum(5, 3);
 let b = sub(5, 3);  
 let c = multi(5, 3);
 let d = div(5, 3);
-console.log("Sum: " + a);
-console.log("Sub: " + b);
-console.log("multi: " + c);
-console.log("div: " + d);
-console.log("Random value: " + random);
+//console.log("Sum: " + a);
+// console.log("Sub: " + b);
+// console.log("multi: " + c);
+// console.log("div: " + d);
+// console.log("Random value: " + random);
+console.log ( `Sum:${a}  ,  subtraction is: ${b} ,   multiply is: ${c}  ,  devide is: ${d}  ,  random value is: ${random}` );
+// one liner for passing variables
+
+
