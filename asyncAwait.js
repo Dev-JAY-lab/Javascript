@@ -1,3 +1,45 @@
+function fatchdata() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve("Data recived ✅"),
+      resolve("Data printing...")
+
+    }, 1000);
+  })
+
+}
+
+async function getData() {
+  console.log("Processing data...")
+  const data = await fatchdata()
+  console.log(data);
+
+}
+getData()
+
+
+function name(fullname) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log(fullname)
+      resolve()
+    }, 1500);
+  })
+}
+
+
+
+
+async function nameOut() {
+    await name("JAY")
+    await name("Age = 29")
+    await name("MUMBAI")
+
+  }
+  nameOut()
+
+
+
 // setTimeout(() => {
 //     clearInterval(set)
 
@@ -8,20 +50,6 @@
 
 
 // }, 2000);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // ex 1 w
@@ -95,64 +123,6 @@
 // delayedMessage().then(function(msg) {
 //   console.log(msg);
 // });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function fatchdata() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve("Data recived ✅"),
-      resolve("Data printing...")
-
-    }, 1000);
-  })
-
-}
-
-async function getData() {
-  console.log("Processing data...")
-  const data = await fatchdata()
-  console.log(data);
-
-}
-getData()
-
-
-function name(fullname) {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      console.log(fullname)
-      resolve()
-    }, 1500);
-  })
-}
-
-
-
-
-async function nameOut() {
-    await name("JAY")
-    await name("Age = 29")
-    await name("MUMBAI")
-
-  }
-  nameOut()
 
 
 
